@@ -1,0 +1,32 @@
+.swiper-slide{
+	height:3rem;
+}
+.news{
+	text-align: center;
+	margin:10px 0;
+}
+.content{
+	padding:0 10px ;
+	height:8rem;
+	overflow: hidden;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+	/* 当手指从触摸屏上移开，会保持一段时间的滚动 */
+	overflow-scrolling: touch;
+	-webkit-overflow-scrolling: touch;
+}
+.list{
+}
+.item{
+	padding: 0 10px;
+}
+.title{
+	display: block;
+	padding: 10px 0;
+	border-bottom:1px solid rgba(0,0,0,.2);
+	overflow: hidden;
+	white-space:nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
